@@ -8,7 +8,7 @@ import tiktoken
 from pinecone import Pinecone
 from datetime import datetime
 import asyncio
-from tool_async.tool_postgreSQL import AsyncSessionLocal, Conversation
+from tool_v3_header.tool_postgreSQL import AsyncSessionLocal, Conversation
 from sqlalchemy import insert
 
 load_dotenv()  # 讀取 .env 檔案

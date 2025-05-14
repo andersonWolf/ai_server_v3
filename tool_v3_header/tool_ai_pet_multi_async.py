@@ -19,9 +19,9 @@ from openai import AsyncOpenAI
 from sqlalchemy import select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 from contextlib import asynccontextmanager
-from tool_async import tool_postgreSQL as db
-from tool_async import tool_ai_chatbot_async as ai_chatbot
-from tool_async import tool_ai_pet_prompt as prompt
+from tool_v3_header import tool_postgreSQL as db
+from tool_v3_header import tool_ai_chatbot_async as ai_chatbot
+from tool_v3_header import tool_ai_pet_prompt as prompt
 
 
 load_dotenv()
